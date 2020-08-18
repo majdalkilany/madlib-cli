@@ -39,6 +39,7 @@ def read_file() :
 def merge_and_write_file(user_inputs) :
         with open('mad_file.txt',) as fname :
             fname = fname.read()
+            
 
         for i in range(len(user_inputs)) :
                 first_pos = fname.find('{',0) 
